@@ -5,11 +5,20 @@ function App() {
  
   return(
     <div>
+      <nav>
+          <ul>
+            <li> Home </li>
+            <li> About Us </li>
+            <li> Contact </li>
+            <li> More.. </li>
+          </ul>
+        </nav>
       <div className='wrapper'>
+      
         <header>
-          <img src="sky3.jpg" className='back' />
-          <img src="anyrgb.com (3).png" className='front' />
-          <h1> WELCOME </h1>
+          <img src="sky.jpg" className='back' />
+          <img src="clouds.png" className='front' />
+          <h1> Scrool down for Parallax Effect </h1>
         </header>
         <section>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pretium vitae nunc in porttitor. Etiam dictum luctus tellus, ac sagittis ex molestie at. Nullam vehicula non ipsum sit amet maximus. Donec laoreet mollis neque, ut vestibulum tortor. Aliquam tincidunt consequat nisl, nec convallis metus tempus non. Etiam et viverra risus. Vivamus eu massa ante.
